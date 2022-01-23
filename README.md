@@ -38,7 +38,7 @@ sudo apt install git-all
 
 ### docker와 docker compose 설치
 각 컨테이너를 실행 및 관리하기 위해 docker를 설치하고,  
-한번에 복수의 컨테이너를 관리하기 위해 docker compose를 사용합니다. 
+한번에 복수의 컨테이너를 관리하기 위해 docker compose를 사용합니다.  
 *주의할점\* : 해당 내용은 2022/01/23을 기준으로 작성됨
 따라서 미래 시점에서는 틀릴수 있기 때문에, 공식 링크를 참고할것*  
 [docker 공식설치링크>>>>](https://docs.docker.com/engine/install/ubuntu/)
