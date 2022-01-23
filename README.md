@@ -10,7 +10,7 @@
     * [docker와 docker compose 설치](#docker와-docker-compose-설치)
 3. 서버에 프로젝트 복제
 4. data 파일 권한 수정 
-5. 
+5. 포트열기
 6. 
 7. 
 
@@ -23,6 +23,8 @@
 * 동일한 서버에서 모든 container 실행
 * elasticsearch는 1개만 사용(다중노드 구성 X)
 * 각 container의 환경설정을 모아서 관리 및 저장(github)
+* 호스트 서버 : ubuntu 16.04 
+* 호스트 서버 ram : 8GB 
 
 ---------------
 
