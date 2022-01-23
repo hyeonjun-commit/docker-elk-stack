@@ -8,8 +8,11 @@
     * [환경](#환경)
     * [git 설치](#git-설치)
     * [docker와 docker compose 설치](#docker와-docker-compose-설치)
-3. 
-4. 
+3. 서버에 프로젝트 복제
+4. data 파일 권한 수정 
+5. 
+6. 
+7. 
 
 
 ## 시작하기전 검토해봐야 할 사항
