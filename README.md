@@ -26,7 +26,7 @@
 ### git 설치
 git clone으로 설치할 서버에 프로젝트를 복사해야 하기 때문에 필요합니다.
 
-*주의할점\* : 해당 내용은 2022/01/23을 기준으로 작성됨
+*주의할점\* : 해당 내용은 2022/01/23을 기준으로 작성됨  
 따라서 미래 시점에서는 틀릴수 있기 때문에, 공식 링크를 참고할것*  
 [git 공식설치링크>>>>](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%84%A4%EC%B9%98)
 ``` Bash
@@ -39,7 +39,7 @@ sudo apt install git-all
 ### docker와 docker compose 설치
 각 컨테이너를 실행 및 관리하기 위해 docker를 설치하고,  
 한번에 복수의 컨테이너를 관리하기 위해 docker compose를 사용합니다.  
-*주의할점\* : 해당 내용은 2022/01/23을 기준으로 작성됨
+*주의할점\* : 해당 내용은 2022/01/23을 기준으로 작성됨  
 따라서 미래 시점에서는 틀릴수 있기 때문에, 공식 링크를 참고할것*  
 [docker 공식설치링크>>>>](https://docs.docker.com/engine/install/ubuntu/)
 [docker compose 공식설치링크>>>>](https://docs.docker.com/compose/install/)
