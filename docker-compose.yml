@@ -48,6 +48,8 @@ services:
       - "5001:5001/tcp"
       - "5001:5001/udp"
       - "9600:9600"
+    expose:
+      - "5044"
     environment:
       LS_JAVA_OPTS: "-Xmx256m -Xms256m"
     networks:
@@ -72,6 +74,26 @@ services:
       - elk
     depends_on:
       - elasticsearch
+
+  filebeat:
+    build:
+      context: "${PWD}/filebeat/"
+      dockerfile: filebeat.Dockerfile
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+    - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml
+    - /usr/local/nginx/logs:/var/log/nginx
+    # ports:
+    #   - "5601:5601"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+      - logstash
+      - kibana
+    links:
+      - logstash
 
 networks:
   elk:
